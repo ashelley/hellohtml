@@ -1,11 +1,21 @@
 {
   "name": "hellohtml",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "author": "Adam Shelley <ashelley@retool.co>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-mkdir": "^0.1.2",
+    "grunt-nuget-pack": "0.0.4"
+  },
+  "dependencies": {
+    "express": "^4.12.3"
+  }
 }
