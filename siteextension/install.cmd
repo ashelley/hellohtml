@@ -4,8 +4,8 @@ IF EXIST %HOME%\LogFiles\SiteExtensions\HelloHtml (
 
 mkdir %HOME%\LogFiles\SiteExtensions\HelloHtml
 
-IF NOT EXIST iisnode (
-  mkdir iisnode
+IF NOT EXIST %HOME%\LogFiles\SiteExtensions\HelloHtml\iisnode (
+  mkdir %HOME%\LogFiles\SiteExtensions\HelloHtml\iisnode
 )
 
 echo "starttime %DATE% %TIME%" >> %HOME%\LogFiles\SiteExtensions\HelloHtml\install.log

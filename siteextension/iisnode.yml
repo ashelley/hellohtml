@@ -1,2 +1,2 @@
 loggingEnabled: true
-logDirectory: iisnode
+logDirectory: ..\..\LogFiles\SiteExtensions\HelloHtml\iisnode
